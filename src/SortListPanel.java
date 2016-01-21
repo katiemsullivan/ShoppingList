@@ -48,7 +48,7 @@ public class SortListPanel extends JPanel{
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			// TODO Auto-generated method stub
+			
 			String s = store.getSelectedItem().toString();
 			list.setText(itemDAO.getCurrentListFromStore(s));
 			

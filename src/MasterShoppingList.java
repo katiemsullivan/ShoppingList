@@ -4,7 +4,7 @@ import javax.swing.JPanel;
 public class MasterShoppingList {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		JFrame master = new JFrame();
 		JPanel mainPanel = new MainPanel();
 		master.add(mainPanel);

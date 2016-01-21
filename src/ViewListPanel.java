@@ -20,8 +20,6 @@ public class ViewListPanel extends JPanel{
 	
 	ArrayList<ListItem> listModel = new ArrayList<ListItem>();
 	ListItem abc = new ListItem("Sample store", "Sample Item");
-
-	
 	JList list = new JList(listModel.toArray());
 	
 	

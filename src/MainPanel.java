@@ -10,9 +10,7 @@ public class MainPanel extends JPanel{
 	JButton sort = new JButton("Sort List");
 	
 	public MainPanel(){
-		
-		
-		
+
 		add(view);
 		add(add);
 		add(sort);
